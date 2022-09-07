@@ -1,0 +1,21 @@
+Instrukcja instalacji bazy na serwerze MySQL lub MariaDB
+========================================================
+
+1. Pobierz i zainstaluj serwer bazy danych MySQL lub MariaDB.
+2. Pobierz i zainstaluj narzêdzie MySQL Workbench.
+3. Otwórz narzêdzie MySQL Workbench.
+4. W lewej kolumnie SQL Development przyjrzyj siê liœcie po³¹czeñ. Jeœli jest na niej localhost, przejdŸ do kroku 11.
+5. Kliknij New Connection, by otworzyæ okno dialogowe Setup New Connection.
+6. W polu Connection Name wpisz localhost.
+7. Wpisz nazwê u¿ytkownika i has³o (domyœlnym u¿ytkownikiem po instalacji jest u¿ytkownik root).
+8. Kliknij przycisk Test Connection.
+9. Jeœli nie pojawi¹ siê b³êdy, kliknij OK.
+10. Po³¹czenie pojawi siê na liœcie, wiêc w przysz³oœci wystarczy je dwukrotnie klikn¹æ.
+11. Kliknij dwukrotnie serwer, aby otworzyæ edytor SQL Editor.
+12. Aby utworzyæ now¹ bazê danych (nazywan¹ w MySQL i MariaDB schematem), kliknij przycisk Create New Schema (to ten, który wygl¹da jak ¿ó³ta bary³ka ze znakiem +). Uruchomi siê okno dialogowe.
+13. Nadaj bazie nazwê tysql, pozostaw pozosta³e pola na wartoœciach domyœlnych i kliknij Apply. Weryfikacja mo¿e wymusiæ ponowne klikniêcie przycisku Apply.
+14. Upewnij siê, ¿e nowa baza danych jest wybrana jako domyœlna. Jej nazwa bêdzie pogrubiona i pojawi siê na pasku tytu³u. Jeœli wybrana jest inna baza danych, kliknij dwukrotnie nazwê tysql w Object Browser.
+15. Skopiuj i wklej zawartoœæ pliku tworzenie (mog¹ pojawiæ siê ostrze¿enia dotycz¹ce kluczy).
+16. Kliknij przycisk Execute (¿ó³ta b³yskawica), aby wykonaæ zapytania.
+17. Skopiuj i wklej zawartoœæ pliku wypelnianie.
+18. SprawdŸ dzia³anie bazy, wykonuj¹c zapytanie SELECT * FROM Klienci.
